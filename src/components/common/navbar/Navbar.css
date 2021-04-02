@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    outline: none;
+    color:rgb(60, 140, 172);
+    font-family: 'Anton', sans-serif;
+    font-size:45px;
+    margin-top:150px;
+    text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+  }
